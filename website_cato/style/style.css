@@ -1,0 +1,76 @@
+@font-face {
+    font-family: monsterhunter;
+    src: url("../fonts/monsterhunter.ttf");
+}
+
+@font-face {
+    font-family: YujiSyuku-Regular;
+    src: url("../fonts/YujiSyuku-regular.ttf")
+}
+
+body {
+    background-image: url("../images/Background6.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: arial, Helvetica, sans-serif;
+    color: aliceblue;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+    -webkit-box-shadow: 3px 3px 10px 3px #dddddd;
+    -moz-box-shadow: 3px 3px 10px 3px #dddddd;
+    box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+
+.highlight {
+    font-weight: bold;
+    color: aqua;
+}
+
+.weaponlist {
+    list-style-type: none;
+    list-style-image: none;
+}
+
+.weaponimg {
+    vertical-align: middle;
+}
+
+p,
+ul {
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0.5);
+    list-style-image: url("../images/palicopfote.gif");
+}
+
+h1 {
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: monsterhunter, fantasy, sans-serif;
+    font-size: 4rem;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 1.8rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: YujiSyuku-Regular, fantasy, serif;
+}
+
+h3 {
+    text-align: start;
+    font-size: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: YujiSyuku-Regular, fantasy, serif;
+}
+
+#monster_bild {
+    width: 40rem;
+    height: 25rem;
+}
