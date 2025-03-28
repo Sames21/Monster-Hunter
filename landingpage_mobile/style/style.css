@@ -1,0 +1,156 @@
+@import url("https://use.typekit.net/ydb6kej.css");
+@font-face {
+    font-family: Arimoregular;
+    src: url(../fonts/Arimo/static/Arimo-Regular.ttf);
+}
+@font-face {
+    font-family: Arimobold;
+    src: url(../fonts/Arimo/static/Arimo-Bold.ttf);
+}
+
+*{box-sizing: border-box;}
+
+img {max-width: 100%;}
+
+body {
+    width: 390px; 
+    margin: auto;
+    text-align: center;
+    font-family: Arimobold,sans-serif;
+    font-size: 1.5rem;
+}
+header {
+    background-color: #019477;
+    margin-bottom: 0;
+}
+main {
+    background-image: url(../Bilder/background.jpg);
+    background-repeat: no-repeat;
+    background-color: #ef7200;
+    padding-bottom: 1rem ;
+    margin-top: 0;
+}
+footer {
+    background-color: #165448;
+}
+details {
+    vertical-align: middle;
+}
+h1 {
+    font-family: "eight", sans-serif;
+    font-size: 2.18rem;
+    line-height: 2rem;
+    text-align: left;
+    margin-left: 0.25rem;
+    margin-top: 0;
+}
+h2 {
+    margin: 0;
+}
+p {
+    font-family: Arimoregular, sans-serif;
+    font-size: 0.875rem;
+    text-align: left;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+nav {
+    margin-top: 0.5rem;
+    margin-left: 1rem;
+}
+ul {
+    text-align: left;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    margin-left: 1rem;
+}
+button {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: #E85D02;
+    border-radius: 2.5rem;
+    border-color: black;
+    width: 179px;
+    height: 41px;
+    font-family: Arimobold, sans-serif;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+#mate-section {
+    margin: auto;
+    width: 251px;
+    border-radius: 2.5rem;
+    box-sizing: border-box 1rem;
+    background-color: #40B29C;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+#mate-text {
+    color: white;
+}
+#logosection {
+    display: flex;
+    align-items: center;
+    row-gap: 20px;
+    background-color: #165448;
+    text-align: left;
+}
+#fließtext-section {
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 360px;
+    border-radius: 2.5rem;
+    box-sizing: border-box 1rem;
+    background-color: #40B29C;
+    padding: 1rem;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.2);
+}
+.logospace {
+    vertical-align: middle;
+}
+#socials{
+    vertical-align:middle;
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+#folge{
+    font-family: Arimobold,sans-serif;
+    color: white;
+    font-size: 1.5rem;
+    text-align: left;
+    margin-top: 0rem; 
+    margin-bottom: 0;
+    padding-top: 1rem; 
+    margin-left: 4rem; 
+}   
+#kontakt {
+    margin-left: 2rem;
+}
+.sofort-button{
+    background-color: #40B29C;
+    width: 239px;
+}
+#bio {
+    vertical-align: middle;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1.8rem;
+}
+#logo-p{
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arimobold,sans-serif;
+}
